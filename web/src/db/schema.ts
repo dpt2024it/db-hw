@@ -4,6 +4,7 @@ import {
   text,
   timestamp,
   integer,
+  type AnyPgColumn,
 } from "drizzle-orm/pg-core";
 
 export const users = pgTable("users", {
@@ -63,7 +64,7 @@ export const comments = pgTable("comments", {
     .notNull()
     .references(() => users.id),
 
-parentId: integer("parent_id").references(() => comments.id),
+parentId: integer("parent_id").references((): AnyPgColumn => comments.id),
   content: text("content").notNull(),
 
   createdAt: timestamp("created_at").defaultNow().notNull(),
