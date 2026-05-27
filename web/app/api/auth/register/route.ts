@@ -1,4 +1,4 @@
-
+import { eq } from "drizzle-orm";
 import { NextResponse } from "next/server";
 
 import { db } from "../../../../src/db";
@@ -18,6 +18,18 @@ export async function POST(req: Request) {
         { status: 400 }
       );
     }
+
+const existingUsers = await db
+  .select()
+  .from(users)
+  .where(eq(users.email, email));
+
+if (existingUsers.length > 0) {
+  return NextResponse.json(
+    { error: "Email already exists" },
+    { status: 400 }
+  );
+}
 
     const hashedPassword = await hashPassword(password);
 
