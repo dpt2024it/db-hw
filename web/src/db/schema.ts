@@ -63,9 +63,7 @@ export const comments = pgTable("comments", {
     .notNull()
     .references(() => users.id),
 
-parentId: integer("parent_id").references(
-  (): any => comments.id
-),
+parentId: integer("parent_id").references(() => comments.id),
   content: text("content").notNull(),
 
   createdAt: timestamp("created_at").defaultNow().notNull(),
