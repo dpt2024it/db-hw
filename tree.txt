@@ -1,0 +1,54 @@
+AGENTS.md
+Development_Plan.md
+README.md
+ToDo_Done.txt
+ToDo_Planned.txt
+web/
+  .gitignore
+  AGENTS.md
+  CLAUDE.md
+  README.md
+  package.json
+  package-lock.json
+  netlify.toml
+  next.config.ts
+  tsconfig.json
+  drizzle.config.ts
+  eslint.config.mjs
+  postcss.config.mjs
+  app/
+    favicon.ico
+    globals.css
+    layout.tsx
+    page.tsx
+    dashboard/page.tsx
+    login-test/page.tsx
+    register-test/page.tsx
+    api/
+      auth/
+        register/route.ts
+        login/route.ts
+  public/
+    favicon.ico
+    globe.svg
+    file.svg
+    next.svg
+    vercel.svg
+    window.svg
+  drizzle/
+    0000_fair_surge.sql
+    0001_polite_squadron_sinister.sql
+    meta/
+      _journal.json
+      0000_snapshot.json
+      0001_snapshot.json
+  src/
+    db/
+      index.ts
+      relations.ts
+      schema.ts
+    lib/
+      constants.ts
+      auth/
+        auth.ts
+        get-user.ts
