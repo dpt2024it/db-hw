@@ -1,7 +1,11 @@
 # AGENTS.md
 
+-------------------
+
 Виж също и този файл :
 Development_Plan.md
+
+-------------------
 
 # Project
 
@@ -37,7 +41,7 @@ Mobile:
 - Expo
 
 Deployment:
-- Vercel or Netlify
+- Netlify
 - Neon PostgreSQL
 
 ---

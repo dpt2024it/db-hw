@@ -1,5 +1,12 @@
 # db-hw Development Plan
 
+-------------------
+
+Виж също и този файл :
+ToDo_Done.txt
+
+-------------------
+
 # PHASE 1 — Project Setup
 
 Goal:

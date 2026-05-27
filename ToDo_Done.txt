@@ -1,0 +1,48 @@
+ToDo_Done
+
+-------------------
+
+Виж също и този файл :
+ToDo_Planned.txt
+
+-------------------
+
+Done 1. Created GitHub repository:
+https://github.com/dpt2024it/db-hw
+
+Done 2. Verified development environment:
+- Node.js installed
+- npm working
+- git working
+- Expo Go installed
+
+Done 3. Selected project architecture:
+- Next.js App Router
+- backend API inside Next.js
+- JWT authentication
+- PostgreSQL + Drizzle ORM
+- Cloudflare R2 for uploads
+- monorepo structure
+
+Done 4. Created Next.js web application in /web
+
+Done 5. Configured:
+- TypeScript
+- ESLint
+- Tailwind CSS
+- App Router
+
+Done 6. Verified local development server:
+http://localhost:3000
+
+Done 7. Cleaned default Next.js template
+
+Done 8. Created minimal Home page:
+- db-hw title page
+
+Done 9. Verified git repository connection with GitHub
+
+Done 10. Created first git commit:
+"setup nextjs web app"
+
+Done 11. Pushed project successfully to GitHub

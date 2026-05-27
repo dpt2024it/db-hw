@@ -1,0 +1,102 @@
+ToDo_Planned
+
+Planned 1. Install backend and database packages:
+- drizzle-orm
+- drizzle-kit
+- postgres
+- bcrypt
+- jsonwebtoken
+
+Planned 2. Create Neon PostgreSQL database
+
+Planned 3. Configure environment variables:
+- DATABASE_URL
+- JWT_SECRET
+- Cloudflare R2 variables
+
+Planned 4. Configure Drizzle ORM
+
+Planned 5. Create database connection layer
+
+Planned 6. Create first Drizzle migration
+
+Planned 7. Create database schema:
+- users
+- homeworks
+- solutions
+- comments
+
+Planned 8. Add recursive comments relation:
+comments.parent_id -> comments.id
+
+Planned 9. Run database migrations
+
+Planned 10. Create database seed script
+
+Planned 11. Implement authentication system:
+- register
+- login
+- logout
+- JWT generation
+- JWT validation
+- bcrypt hashing
+
+Planned 12. Create auth middleware
+
+Planned 13. Create role system:
+- ADMIN
+- STUDENT
+
+Planned 14. Create REST API structure:
+- auth API
+- homeworks API
+- solutions API
+- comments API
+
+Planned 15. Create pagination system
+
+Planned 16. Create web pages:
+- Home
+- Login
+- Register
+- Homework List
+- Homework Details
+- Submit Solution
+- Solution Details
+- Admin Dashboard
+- User Profile
+
+Planned 17. Create recursive comments UI
+
+Planned 18. Implement solution types:
+- TEXT
+- SQL
+- FILE
+- IMAGE
+
+Planned 19. Configure Cloudflare R2 uploads
+
+Planned 20. Create mobile Expo app
+
+Planned 21. Connect mobile app to REST API
+
+Planned 22. Add scalability support:
+- pagination
+- indexes
+- 10k seed records
+
+Planned 23. Deploy project:
+- Vercel/Netlify
+- Neon PostgreSQL
+- Expo Web
+
+Planned 24. Create documentation:
+- README
+- setup guide
+- architecture
+- database diagram
+- deployment guide
+
+Planned 25. Complete GitHub requirements:
+- minimum 15 commits
+- commits across at least 3 different days
